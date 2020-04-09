@@ -1,0 +1,50 @@
+body {    
+    background-image: url('./image/background.png');
+    font-family: 'Rubik-Regular';
+}
+
+@font-face{
+    font-family: 'Rubik-Regular';
+    src: url('./font/Rubik-Regular.ttf');
+    src: local('Rubik-Regular'),    
+        url('./font/Rubik-Regular.ttf') format('truetype')
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+  }
+
+.credit {   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+    padding: 8px 12px;    
+    font-size: 11px;
+    color: #FFBC00;
+    background: hsla(0,0%,100%,.13);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.credit a {
+    color:#FFBC00 !important;
+    margin-top: 1px;    
+}
+
+@media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+    .image {
+        width: 100%;
+      }
+}  
