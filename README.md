@@ -5,7 +5,7 @@
 ## Overview
 - This project provides API https://covid19.mathdro.id/api for consumption.
 - Created with React.
-- Using Charts.JS and Material UI.
+- Using Charts.js and Material UI.
 
 Set Up:
 - run `$ npm i && npm start`  
